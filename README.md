@@ -7,55 +7,55 @@ MyCamera es una aplicación móvil completa para Android que integra funcionalid
 ## Características Principales
 
 ### Funcionalidades Básicas
-- ✅ **Captura Fotográfica**: Vista previa en tiempo real y captura de fotos en alta calidad
-- ✅ **Galería de Fotos**: Visualización en grid con carga eficiente de imágenes
-- ✅ **Vista Detallada**: Navegación horizontal entre fotos con funciones de compartir y eliminar
-- ✅ **Gestión de Permisos**: Manejo completo de permisos de cámara y almacenamiento
-- ✅ **Navegación Fluida**: Implementación con Navigation Compose
+- Captura Fotográfica: Vista previa en tiempo real y captura de fotos en alta calidad
+- Galería de Fotos: Visualización en grid con carga eficiente de imágenes
+- Vista Detallada: Navegación horizontal entre fotos con funciones de compartir y eliminar
+- Gestión de Permisos: Manejo completo de permisos de cámara y almacenamiento
+- Navegación Fluida: Implementación con Navigation Compose
 
 ### Funcionalidades Avanzadas
-- ✅ **Control de Flash**: Modos OFF, ON y AUTO
-- ✅ **Cambio de Cámara**: Alternancia entre cámara frontal y trasera
-- ✅ **Grid Lines**: Regla de tercios para composición fotográfica
-- ✅ **Temporizador**: Opciones de 3, 5 y 10 segundos
-- ✅ **Modo Ráfaga**: Captura de 5 fotos en secuencia
-- ✅ **Modo Retrato**: Efecto bokeh cuando está disponible en el dispositivo
-- ✅ **Filtros de Imagen**: Normal, Escala de grises, Sepia y Blur en vista detallada
-- ✅ **Compartir Fotos**: Integración con el sistema de compartir de Android
+- Control de Flash: Modos OFF, ON y AUTO
+- Cambio de Cámara: Alternancia entre cámara frontal y trasera
+- Grid Lines: Regla de tercios para composición fotográfica
+- Temporizador: Opciones de 3, 5 y 10 segundos
+- Modo Ráfaga: Captura de 5 fotos en secuencia
+- Modo Retrato: Efecto bokeh cuando está disponible en el dispositivo
+- Filtros de Imagen: Normal, Escala de grises, Sepia y Blur en vista detallada
+- Compartir Fotos: Integración con el sistema de compartir de Android
 
 ## Requisitos del Sistema
 
-- **Android**: API 26 (Android 8.0 Oreo) o superior
-- **SDK Objetivo**: API 35
-- **Kotlin**: Versión 2.0.21 o superior
-- **Android Studio**: Hedgehog (2023.1.1) o superior
-- **Hardware**: Cámara (frontal o trasera)
+- Android: API 26 (Android 8.0 Oreo) o superior
+- SDK Objetivo: API 35
+- Kotlin: Versión 2.0.21 o superior
+- Android Studio: Hedgehog (2023.1.1) o superior
+- Hardware: Cámara (frontal o trasera)
 
 ## Instalación y Configuración
 
 ### Prerrequisitos
-1. Android Studio instalado
-2. SDK de Android configurado
-3. Dispositivo Android o emulador con API 26+
+- Android Studio instalado
+- SDK de Android configurado
+- Dispositivo Android o emulador con API 26+
 
 ### Pasos de Instalación
 
-1. **Clonar el repositorio**
+- Clonar el repositorio
    ```bash
    git clone [URL_DEL_REPOSITORIO]
    cd MyCamera
    ```
 
-2. **Abrir en Android Studio**
+- Abrir en Android Studio
    - Abrir Android Studio
    - Seleccionar "Open an Existing Project"
    - Navegar a la carpeta del proyecto
 
-3. **Sincronizar Gradle**
+- Sincronizar Gradle
    - Android Studio sincronizará automáticamente las dependencias
    - Si no, ir a: File → Sync Project with Gradle Files
 
-4. **Ejecutar la aplicación**
+- Ejecutar la aplicación
    - Conectar un dispositivo Android o iniciar un emulador
    - Presionar el botón "Run" o usar Shift+F10
    - La aplicación se instalará y ejecutará automáticamente
@@ -77,19 +77,19 @@ app/src/main/java/co/edu/anders/mycamera/
 ## Tecnologías Utilizadas
 
 ### Stack Principal
-- **Kotlin 2.0.21**: Lenguaje de programación
-- **Jetpack Compose**: Framework de UI declarativo
-- **Material Design 3**: Sistema de diseño
+- Kotlin 2.0.21: Lenguaje de programación
+- Jetpack Compose: Framework de UI declarativo
+- Material Design 3: Sistema de diseño
 
 ### Bibliotecas
-- **CameraX 1.3.4**: Integración con la cámara del dispositivo
-- **Coil 2.5.0**: Carga y visualización eficiente de imágenes
-- **Navigation Compose 2.7.7**: Navegación entre pantallas
-- **Accompanist Permissions 0.34.0**: Gestión de permisos
+- CameraX 1.3.4: Integración con la cámara del dispositivo
+- Coil 2.5.0: Carga y visualización eficiente de imágenes
+- Navigation Compose 2.7.7: Navegación entre pantallas
+- Accompanist Permissions 0.34.0: Gestión de permisos
 
 ## Capturas de Pantalla
 
-> **Nota**: Agregar capturas de pantalla de la aplicación funcionando:
+> Nota: Agregar capturas de pantalla de la aplicación funcionando:
 > - Pantalla de cámara con controles
 > - Galería con grid de fotos
 > - Vista detallada de foto
@@ -133,16 +133,16 @@ app/src/main/java/co/edu/anders/mycamera/
 
 ## Mejoras Futuras
 
-- [ ] Guardar filtros aplicados permanentemente
-- [ ] Edición básica de imágenes (recorte, rotación)
-- [ ] Sincronización con almacenamiento en la nube
-- [ ] Modo video
-- [ ] Configuración de calidad de imagen
-- [ ] Exportación de fotos a galería del sistema
+- Guardar filtros aplicados permanentemente
+- Edición básica de imágenes (recorte, rotación)
+- Sincronización con almacenamiento en la nube
+- Modo video
+- Configuración de calidad de imagen
+- Exportación de fotos a galería del sistema
 
 ## Autor
 
-**Nombre del Estudiante**
+Nombre del Estudiante
 - Asignatura: Desarrollo de Aplicaciones Móviles
 - Universidad: [Nombre de la Universidad]
 
